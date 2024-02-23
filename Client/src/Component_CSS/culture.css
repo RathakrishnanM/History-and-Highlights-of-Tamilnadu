@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h2 {
+    text-align: center;
+}
+
+.nav-culture {
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.entire-culture-page {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.slider-area {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    gap: 50px;
+}
+
+.item {
+    display: block;
+    margin-top: 65px;
+    position: relative;
+}
+
+.item-img {
+    filter: brightness(75%) drop-shadow(2px 2px 5px grey);
+    border-radius: 10px;
+}
+
+.item-content {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 18px;
+}
+
+.culture-overview-content {
+    text-align: center;
+    line-height: 2;
+    margin: auto 40px auto;
+    width: 800px;
+    padding: 100px;
+}
+
+.all-district-links {
+    margin-left: 100px;
+    display: flex;
+}
+
+.all-district-links > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 180px;
+}
+
+.all-district-links a {
+    text-decoration: none;
+}
+
+.all-district-links a:hover {
+    color: red;
+}

@@ -1,0 +1,36 @@
+.blog-page {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .blog-post h3 {
+    color: #333;
+  }
+  
+  .blog-post p {
+    color: #666;
+  }
+  
+  .end-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .welcome-blog {
+    text-align: center;
+    font-size: 20px;
+    color: #0099ff;
+  }

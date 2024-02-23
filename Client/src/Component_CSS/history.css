@@ -1,0 +1,50 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.history-btn {
+    padding: 10px;
+}
+
+.rulers-btn {
+    padding: 10px 13px;
+}
+
+button {
+    background-color: #30cde2;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
